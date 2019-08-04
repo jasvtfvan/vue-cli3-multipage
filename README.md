@@ -34,8 +34,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #### 基于vue-cli3的多页脚手架
 * 基于h5移动端
-* 多页价值
-**多用于嵌入到原生等（webview），webview可加载详见下方webview简介**
+* 多页价值<br>
+**多用于嵌入到原生等（webview），webview可加载详见下方webview简介**<br>
 *也有的用到，一个项目，部署到多个分支平台*
 * 该脚手架在功能上属于纯demo型，可参考demo实现具体业务
 * 利用cube-ui的优质特性，详见下方cube-ui简介
