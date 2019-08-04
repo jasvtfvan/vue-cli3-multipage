@@ -80,13 +80,13 @@ npm run serve
 * 其他
 
 #### webview简介
-webview常见于原生或react-native，weex等
-webview可以加载地址：
+webview常见于原生或react-native，weex等。<br>
+webview可以加载路径如下：
 * 远程url
 * 本地文件，如html
-* 对于本地文件虚拟路由，规律如下:
-初始化只可以加载file文件，不能加载带有虚拟路由后缀的路径，初始化只能通过文件系统找到文件
-初始化完毕后，file文件已经挂载到webview上，此时可以在webview内部进行虚拟路由跳转
+* 对于本地文件虚拟路由，规律如下:<br>
+初始化只可以加载file文件，不能加载带有虚拟路由后缀的路径，初始化只能通过文件系统找到文件,<br>
+初始化完毕后，file文件已经挂载到webview上，此时可以在webview内部进行虚拟路由跳转。
 * 规则总结
 **远程路径没限制，本地加载找文件，加载完成可路由**
 
