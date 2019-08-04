@@ -76,6 +76,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * cube-ui 扩展性强，可适配场景丰富
 * cube-ui 主题改造方便，样式结构清晰
 * cube-ui 按需加载，易于插拔
+* cube-ui 对于多屏适配有良好的兼容方案，可选rem及px，方便集成基于动态viewport的屏幕适配方案
+* cube-ui 对于1px-border以及不同分辨率图片，有很好的默认支持方案
 
 ***对比其他ui库，维护性高，并解决了 “样式无法扩展”，“组件无法扩展” 的痛点***
 
