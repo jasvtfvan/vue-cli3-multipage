@@ -34,6 +34,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #### 基于vue-cli3的多页脚手架
 * 基于h5移动端
+* 多页价值
+**多用于嵌入到原生等（webview），webview可加载详见下方webview简介**
+*也有的用到，一个项目，部署到多个分支平台*
 * 该脚手架在功能上属于纯demo型，可参考demo实现具体业务
 * 利用cube-ui的优质特性，详见下方cube-ui简介
 
@@ -75,6 +78,17 @@ npm run serve
 * vuex
 * 覆盖cube-ui样式 扩展嵌套组件
 * 其他
+
+#### webview简介
+webview常见于原生或react-native，weex等
+webview可以加载地址：
+* 远程url
+* 本地文件，如html
+* 对于本地文件虚拟路由，规律如下:
+初始化只可以加载file文件，不能加载带有虚拟路由后缀的路径，初始化只能通过文件系统找到文件
+初始化完毕后，file文件已经挂载到webview上，此时可以在webview内部进行虚拟路由跳转
+* 规则总结
+**远程路径没限制，本地加载找文件，加载完成可路由**
 
 #### cube-ui简介
 **推荐使用cube-ui**
