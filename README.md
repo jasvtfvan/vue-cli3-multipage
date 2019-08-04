@@ -37,6 +37,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * 该脚手架在功能上属于纯demo型，可参考demo实现具体业务
 * 利用cube-ui的优质特性，详见下方cube-ui简介
 
+#### 运行及访问
+```bash
+npm run serve
+```
+访问: http://host:port/demo1.html
+
 #### 核心目录结构如下
 ```bash
 |--- package.json
