@@ -78,6 +78,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * cube-ui 按需加载，易于插拔
 
 ***对比其他ui库，维护性高，并解决了 “样式无法扩展”，“组件无法扩展” 的痛点***
+
 *如果你不想使用cube-ui，只需轻松删除 main.js中的引用 和 vue.config.js 相关配置*
 
 ***
